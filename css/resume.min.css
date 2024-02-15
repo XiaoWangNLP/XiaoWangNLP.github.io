@@ -203,19 +203,19 @@
 
 
     #shadowAlignmentImage {
-      background-image: url(../img/research/ShadowAlignment.png);
+      background-image: url(../img/research/ShadowAlignment.jpg);
     }
 
     #traceImage {
-      background-image: url(../img/research/TRACE.png);
+      background-image: url(../img/research/TRACE.jpg);
     }
 
     #OLoRAImage {
-      background-image: url(../img/research/O-LoRA.png);
+      background-image: url(../img/research/O-LoRA.jpg);
     }
 
     #UIEImage {
-      background-image: url(../img/research/UIE-comparison.png);
+      background-image: url(../img/research/UIE-comparison.jpg);
     }
 
     #RoCoInsImage {
@@ -227,7 +227,7 @@
     }
 
     #MINERImage {
-      background-image: url(../img/research/MINER.png);
+      background-image: url(../img/research/MINER.jpg);
     }
 
     #TextFlintImage {
