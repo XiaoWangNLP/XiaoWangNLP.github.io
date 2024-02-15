@@ -87,7 +87,7 @@
 
           Complementing my studies, I'm currently interning at <a href="https://www.sailab.org.cn/">Shanghai AI Laboratory</a>, mentored by <a href="http://dahua.site/">Prof. Dahua Lin</a> and <a href="https://zhaoxun.tech/">Dr. Xun Zhao</a>.
 
-          My research primarily focuses on the safety of Large Language Models, encompassing fine-tuning attack and defense, Jailbreak, and comprehensive safety evaluations. I am also deeply interested in continual learning as a means to advance intelligence.</p>
+          My research primarily focuses on the safety of Large Language Models, encompassing Jailbreak, defense strategies, and comprehensive safety evaluations. I am also deeply interested in continual learning as a means to advance intelligence.</p>
 
           <p class="lead mb-5">Actively <b>looking for postdoc</b> roles in similar research fields. Reach out if our interests match!</p>
 
@@ -114,6 +114,26 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
         <div class="my-auto">
           <h2 class="mb-5">Research</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Navigating the OverKill in Large Language Models</h3>
+              <div class="subheading">Chenyu Shi*, <b>Xiao Wang*</b> , Qiming Ge, Songyang Gao, Xianjun Yang, Tao Gui, Qi Zhang, Xuanjing Huang, Xun Zhao, Dahua Lin</div>
+              <div class="subheading"><strong>Under Review</strong>, 2024</div>
+              <div class="subheading mb-1">
+                <ul class="list-inline dev-icons">
+                  <li class="list-inline-item">
+                    <a href="https://arxiv.org/pdf/2401.17633.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Download PDF"><i class="far fa-file-pdf"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://github.com/InvokerStark/OverKill" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View Code Repository"><i class="fab fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <p>We defined the exaggerated safety behaviours in LLMs as "Overkill" and conducted a detailed analysis of this phenomenon, starting from the basics and delving deeper. We found that the model’s understanding of user queries is superficial and it employs a certain shortcut in its internal attention mechanism. Based on this, we proposed a simple, effective, and model-agnostic method called Self-CD. It does not require training but can significantly reduce the model’s rejection rate. </p>
+            </div>
+            <div class="resume-date text-md-right" id="overkillImage"></div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -278,7 +298,7 @@
             <div class="resume-date text-md-right" id="TextFlintImage"></div>
           </div>
           
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Improving Generalization of Alignment with Human Preferences through Group Invariant Learning</h3>
               <div class="subheading">Rui Zheng, Wei Shen, Yuan Hua, Wenbin Lai, Shihan Dou, Yuhao Zhou, Zhiheng Xi, <b>Xiao Wang</b>, Tao Gui, et al.</div>
@@ -295,7 +315,7 @@
                 domains.</p>
             </div>
             <div class="resume-date text-md-right" id="RLHFImage"></div>
-          </div>
+          </div> -->
           
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -374,6 +394,21 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"><a href="https://github.com/EasyJailbreak/EasyJailbreak" target="_blank">EasyJailbreak</a></h3>
+              <div class="subheading mb-1">A Unified Framework for Jailbreaking Large Language Models.</div>
+              <div class="subheading mb-1">
+                
+              </div>
+              <p>I led the EasyJailbreak project, focusing on creating a framework to evaluate jailbreak attacks on LLMs. My work included surveying jailbreak methods, forming a taxonomy, and contributing to the framework's design. Additionally, I ensured comprehensive documentation, making our research accessible to others. This effort streamlined security assessments across various LLMs.</p>
+            </div>
+
+            <div class="resume-logo text-md-right" id="EasyJailbreakLogo">
+              <span class="text-date">Nov 2023 - Feb 2024</span>
+            </div>
+          </div>
 
     
           <div class="resume-item d-flex flex-column flex-md-row mb-5">

@@ -201,6 +201,9 @@
       }
     }
 
+    #overkillImage {
+      background-image: url(../img/research/Overkill.png);
+    }
 
     #shadowAlignmentImage {
       background-image: url(../img/research/ShadowAlignment.jpg);
@@ -262,6 +265,10 @@
 
     #CUMT {
       background-image: url(../img/industry/CUMTLogo.png);
+    }
+
+    #EasyJailbreakLogo {
+      background-image: url(../img/industry/EasyJailbreak.png);
     }
 
     #TextflintLogo {
