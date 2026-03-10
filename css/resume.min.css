@@ -337,7 +337,10 @@
     }
   
     .bg-primary {
-      background: url('../img/909008.png') no-repeat center center;
+      background-color: #59c9a5;
+      background-image: url('../img/909008.png');
+      background-repeat: no-repeat;
+      background-position: center center;
       background-size: cover;
     }
   
