@@ -88,10 +88,9 @@
 
           <p class="lead mb-5">I am a <b>PhD graduate</b> from <a href="https://nlp.fudan.edu.cn/">Fudan University NLP group</a>, formerly co-advised by <a href="http://qizhang.info/">Prof. Qi Zhang</a> and <a href="https://nlp.fudan.edu.cn/28702/list.htm">Prof. Xuanjing Huang</a>. During my doctoral studies, my research focused on the <b>trustworthiness of LLMs</b>, particularly their robustness and security, <b>continual learning</b>, and <b>information extraction</b>.</p>
 
-          <p class="lead mb-5">I'm currently working at <a href="https://www.zhipu.ai/">Zhipu AI</a> in the post-training group. My focus areas include <b>Alignment, RLHF, Reasoning, and Code</b>. I'm passionate about improving the quality of feedback mechanisms by providing finer-grained and more informative signals. A significant part of my role involves developing scalable oversight strategies to supervise more powerful models efficiently and cost-effectively. I'm optimistic about the realization of AGI and thrilled to be part of this exciting journey! 🚀</p>
+          <p class="lead mb-5">I previously worked at <a href="https://www.zhipu.ai/">Zhipu AI</a> on post-training for large language models. I am now with <b>Xiaohongshu Hi Lab</b>, where I work on <b>Search Agents</b>, with a primary focus on <b>long-horizon reasoning, agent systems, synthetic data, and reinforcement learning</b>.</p>
 
-
-          <p class="lead mb-5">Always up for collaborating and chatting about these topics—feel free to reach out! 🤝</p>
+          <p class="lead mb-5">I am particularly interested in <b>scalable oversight</b> and the path toward <b>AGI</b>. If you are working on related problems—or simply want to exchange ideas on reasoning, agents, or post-training—feel free to reach out.</p>
 
 
           <div class="social-icons">
@@ -117,6 +116,27 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
         <div class="my-auto">
           <h2 class="mb-5">Research</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">A Scalable and Cost-Efficient Framework for Long-Horizon Search Agents</h3>
+              <div class="subheading">
+                Zheng Chu, <b>Xiao Wang</b>, Jack Hong, Huiming Fan, Yuqi Huang, Yue Yang, Guohai Xu, Chenxiao Zhao, Cheng Xiang, Shengchao Hu, Dongdong Kuang, Ming Liu, Bing Qin, Xing Yu
+              </div>
+              <div class="subheading"><strong>arXiv</strong>, 2026</div>
+              <div class="subheading mb-1">
+                <ul class="list-inline dev-icons">
+                  <li class="list-inline-item">
+                    <a href="https://arxiv.org/abs/2602.14234" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View Paper"><i class="far fa-file-pdf"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <p>
+                We present REDSearcher, a unified framework for optimizing long-horizon search agents through task synthesis, mid-training, and post-training. The framework improves search-oriented reasoning, planning, tool use, and reinforcement learning efficiency, and achieves state-of-the-art results on both text-only and multimodal search-agent benchmarks.
+              </p>
+            </div>
+            <div class="resume-date text-md-right" id="REDSearcherImage"></div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -550,16 +570,30 @@
               <h3 class="mb-0"><a href="https://www.shlab.org.cn/research" target="_blank">Shanghai AI Lab</a></h3>
               <div class="subheading mb-3">Research Scientist Intern, Mentors: Xun Zhao and <a href="http://dahua.site/">Dahua Lin</a>.</div>
                 <ul>
-                  <li><b>Misuse of LLMs</b>: Investigate the security vulnerabilities of open-source LLMs, employing minimal sample fine-tuning techniques to reverse LLMs' safety alignment; utilizes In-Context Learning to exploit unaligned LLMs, generating high-quality malicious responses.</li>
-                  <li><b>LLM Alignment</b>: Investigate the trade-off between harmlessness and helpfulness in LLMs, focusing on enhancing model safety without diminishing its utility, and addressing the issue of exaggerated safety in aligned LLMs that lead to the rejection of benign requests.</li>
-
+                  <li><b>LLM Safety</b>: Studied the safety vulnerabilities of open-source LLMs, including low-cost alignment subversion and misuse induced through in-context learning.</li>
+                  <li><b>LLM Alignment</b>: Investigated the trade-off between harmlessness and helpfulness, with a focus on mitigating over-refusal while preserving model utility.</li>
                 </ul>
             </div>
             <div class="resume-logo text-md-right" id="ShanghaiAILabLogo">
-              <span class="text-date">May 2023 - Present</span>
+              <span class="text-date">May 2023 - Mar 2024</span>
             </div>
           </div>
 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"><a href="https://www.zhipu.ai/" target="_blank">Zhipu AI</a></h3>
+              <div class="subheading mb-3">Researcher, Post-training Group.</div>
+                <ul>
+                  <li><b>Reasoning and Instruction Following</b>: Built data pipelines for instruction-following, logical reasoning, and code reasoning, spanning SFT, preference optimization, and reinforcement learning, with consistent gains on coding and instruction-following benchmarks.</li>
+                  <li><b>Reward Modeling and Test-Time Scaling</b>: Worked on outcome/process reward modeling, synthetic CoT data construction, and inference-time search for reasoning models, while improving training infrastructure for large-scale post-training.</li>
+                </ul>
+            </div>
+            <div class="resume-logo text-md-right">
+              <span class="text-date">Jul 2024 - Apr 2025</span>
+            </div>
+          </div>
+
+          <!--
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0"><a href="https://tech.pingan.com/" target="_blank">Ping An Technology</a></h3>
@@ -574,6 +608,7 @@
               <span class="text-date">Apr 2018 - Aug 2020</span>
             </div>
           </div>
+          -->
 
 
         </div>

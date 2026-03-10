@@ -261,7 +261,9 @@
       background-image: url(../img/research/EasyJailbreak.png);
     }
 
-    
+    #REDSearcherImage {
+      background-image: url(../img/research/REDSearcher.png);
+    }
 
     #Fudan {
       background-image: url(../img/industry/fudanLogo.png);
