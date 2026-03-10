@@ -298,8 +298,15 @@
     #PingAnLogo {
       background-image: url(../img/industry/PingAnTecLogo.png);
     }
+
+    #ZhipuAILogo {
+      background-image: url(../img/industry/ZhipuAILogo.png);
+    }
+
+    #XiaohongshuLogo {
+      background-image: url(../img/industry/XiaohongshuLogo.png);
+    }
   
-    
     .bg-primary {
       background: url('../img/909008.png') no-repeat center center;
       background-size: cover;
